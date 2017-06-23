@@ -10,8 +10,10 @@ import (
 )
 
 const (
-	deadTime       = 5 * time.Minute
-	reapPeriod     = 10 * time.Minute
+	//TODO - updating from 5, 10 to 1, 2
+	deadTime   = 1 * time.Minute
+	reapPeriod = 2 * time.Minute
+
 	reapJitterSecs = 30
 )
 
